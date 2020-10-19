@@ -1,0 +1,23 @@
+{
+    "name": "unit_test_quiz",
+    "version": "1.0.0",
+    "description": "My Go unit test quiz.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --config ./jest.config.js --forceExit --coverage --runInBand"
+    },
+    "keywords": [
+        "node",
+        "unit_test"
+    ],
+    "author": "zachyu.tw@gmail.com",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^26.5.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.3",
+        "@babel/preset-env": "^7.12.1",
+        "babel-jest": "^26.5.2"
+    }
+}
