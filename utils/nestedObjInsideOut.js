@@ -1,3 +1,8 @@
+/**
+ * @description Inside Out a nested Object, only support nested object contact with one key value.
+ * @param {Object} value - object key value
+ * @returns {Object}
+ */
 const nestedObjInsideOut = (value)=>{
     let shallow = value;
     let nested = [];
